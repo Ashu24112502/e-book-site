@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<form action="sub.html">
+    
+   <div class="logBody"> 
+<label for="fname">first name:</label><br>
+<input type="text" id="fname" name="fname" >
+<br>
+<label for="lname">last name:</label><br>
+<input type="text" id="lname" name="lname">
+<br>
+<div class="row">
+    <label>Email Address:</label><br>
+    <input type="text" name="email">
+    <div class="error" id="emailErr"></div>
+</div>
+<br>
+<div class="row">
+    <label>Mobile Number:</label><br>
+    <input type="text" name="mobile" maxlength="10">
+    <div class="error" id="mobileErr"></div>
+</div>
+
+
+<label for="gender">choose your gender:</label>
+<select name="gender" id="gender">
+    <option value="Select">Select</option >
+ <option value="Male">Male</option >
+ <option value="Female">Female</option >
+ <option value="Other">Other</option >
+</select>
+<label>Country</label>
+<select name="country">
+    <option>Select</option>
+    <option>INDIA</option>
+    <option>Afghanistan</option>
+    <option>United States America</option>
+    <option>Nepal</option>
+    <option>Bangladesh</option>
+    <option>Australia</option>
+
+</select>
+
+<br>
+
+<input type="submit" value="Submit">
+</div>
+
+
+
+
+</form>
+<script src="trial.js"></script>
+
+</body>
+</html>
